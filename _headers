@@ -1,0 +1,12 @@
+# Netlify / Vercel / Cloudflare Pages header rules.
+# For the Node.js server (server.js), these are applied in code — this file is ignored by Node.
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD, PUT, PATCH, DELETE
+  Access-Control-Allow-Headers: *
+  Access-Control-Expose-Headers: *
+  Cross-Origin-Resource-Policy: cross-origin
+  Cross-Origin-Embedder-Policy: unsafe-none
+  Cross-Origin-Opener-Policy: unsafe-none
+  X-Frame-Options: ALLOWALL
+  Content-Security-Policy:
